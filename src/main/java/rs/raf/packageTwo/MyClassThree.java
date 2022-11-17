@@ -4,6 +4,10 @@ public class MyClassThree {
 
     private Object MyAttributeThree;
 
+    public MyClassThree(Object myAttributeThree) {
+        MyAttributeThree = myAttributeThree;
+    }
+
     public Object getMyAttributeThree() {
         return MyAttributeThree;
     }
